@@ -1,0 +1,38 @@
+{
+  "name": "plantuml-snippets",
+  "displayName": "PlantUML C4 Snippets",
+  "description": "Snippets C4-PlantUML for Visual Studio Code",
+  "version": "1.0.0",
+  "publisher": "claudineyqr",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "icon": "icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/claudineyqr/vscode-plantuml-snippets.git"
+  },
+  "engines": {
+    "vscode": "^1.30.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "keywords": [
+    "snippets",
+    "snippet",
+    "PlantUML",
+    "C4",
+    "C4Model",
+    "C4-Model"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "",
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
+  },
+  "extensionDependencies": [
+    "jebbs.plantuml"
+  ]
+}
